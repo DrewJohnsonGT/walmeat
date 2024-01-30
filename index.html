@@ -27,12 +27,29 @@
       align-items: center;
     "
   >
-    <img
-      src="pepe.png"
-      alt="Walmeat"
-      style="max-width: 100%; height: auto; margin: auto; cursor: pointer"
+    <div
       onClick="document.getElementById('audio').play()"
-    />
+      style="
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+      "
+    >
+      <img
+        src="pepe.png"
+        alt="Walmeat"
+        style="max-width: 100%; height: auto; margin: auto"
+      />
+      <span
+        style="
+          font-size: 8px;
+          font-family: 'Comic Sans MS', cursive, sans-serif;
+        "
+        >click me</span
+      >
+    </div>
     <audio id="audio" autoplay loop>
       <source src="meat-song.m4a" type="audio/mp4" />
     </audio>
